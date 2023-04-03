@@ -115,7 +115,7 @@ set -o pipefail
 
 # Repos
 realm_repo="https://github.com/realm/realm-swift"
-xcframeworks_repo="https://github.com/RomanEsin/RealmBinary"
+xcframeworks_repo="https://github.com/timstudt/RealmBinary"
 
 # Release versions
 latest=$(latest_release_number $realm_repo)
