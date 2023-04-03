@@ -1,3 +1,4 @@
+[![Publish Release](https://github.com/timstudt/RealmBinary/actions/workflows/package.yml/badge.svg?branch=main)](https://github.com/timstudt/RealmBinary/actions/workflows/package.yml)
 # RealmBinary
 
 ## ⚠️ WARNING Works only with Xcode 14.1 (#10)
