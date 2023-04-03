@@ -1,9 +1,11 @@
 name: Publish Release
 
 on:
+  pull_request:
+    branches: [ main ] # for testing PR changes
   workflow_dispatch:
   schedule:
-    - cron: '*/60 */2 * * *' # Every 2 hours
+    - cron: '0 0 * * *' # Every 2 hours
 
 jobs:
   build:
